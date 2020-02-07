@@ -35,4 +35,10 @@ while (isSunk === false) {
     isSunk = true
     alert('Победа!')
   }
+} else {
+  if (currentShot > 9 || currentShot < 0) {
+    alert('Ошибка! Введите число от 0 до 9')
+  } else {
+    alert('Промах!')
+  }
 }
