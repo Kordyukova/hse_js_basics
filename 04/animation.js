@@ -16,7 +16,7 @@ function makeCircle() {
 }
 
 function move() {
-  box.style.transform = "translate(100px, 100px)"
+  box.style.transform = "translateX(10%)"
 }
 
 function makeBlinking() {
@@ -24,10 +24,13 @@ function makeBlinking() {
 }
 
 function addText() {
-
+  let labelInputValue = document.getElementById('labelInput').value
+  box.innerText = labelInputValue
+  labelInputValue = ""
 }
 
 function changeColor() {
-  color = getElementById('colorInput').value;
-  box.style.backgroundColor = color;
+  let colorInput = document.querySelector("#colorInput")
+  box.style.backgroundColor = colorInput.value
+  colorInput.value = ""
 }
