@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bonbon|Delius+Unicase|Gloria+Hallelujah|Homemade+Apple|Indie+Flower|Mansalva|Petit+Formal+Script|Shadows+Into+Light|Waiting+for+the+Sunrise&display=swap');
+
+
+body {
+  margin: 0;
+}
+
+div {
+  position: fixed;
+  transition: 400ms all ease;
+  will-change: transform, width, height;
+}
